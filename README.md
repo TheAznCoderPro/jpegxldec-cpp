@@ -10,6 +10,7 @@ The code most likely contains:
  - Security issues including buffer overflows
  - Memory leaks
  - Inefficient code
+ - Bad coding decisions
 
 ## Progress
  - Start the project :/
