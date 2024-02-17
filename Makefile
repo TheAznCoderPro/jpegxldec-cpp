@@ -13,3 +13,7 @@ $(SRCDIR)/$(OBJDIR)/%.o: $(SRCDIR)/%.cc $(HEADERFILES)
 
 jpegxldec: $(OBJFILES)
 	$(CPP) -o $@ $^
+
+clean:
+	rm jpegxldec
+	rm $(SRCDIR)/$(OBJDIR)/*
